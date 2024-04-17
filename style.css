@@ -620,6 +620,14 @@ ul {
 
 .social .info {
 	max-width: 400px;
+}.products .main-image {
+    max-height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.products .suggested-products {
+	display: flex;
 }.other-apartments {
 	height: 100vh;
 	background-image: url(assets/house.jpg);
