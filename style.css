@@ -225,7 +225,8 @@ ul {
 .contact-inner,
 .social,
 .social-external .social-external-centered,
-.functional-layout {
+.functional-layout,
+.painting {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -250,15 +251,23 @@ ul {
     width: 100%;
 }
 
-.intro h1 {
+.intro h1,
+.intro h2 {
     font-family: var(--font-family);
     color: white;
     font-size: 64px;
 }
 
+.intro h2 {
+    font-size: 48px;
+}
+
 @media (max-width: 1250px) {
 	.intro h1 {
 		font-size: 32px;
+	}
+	.intro h2 {
+		font-size: 24px;
 	}
 }
 
@@ -270,9 +279,10 @@ ul {
     right: 50px;
     bottom: 50px;
     display: flex;
-    align-items: end;
-    justify-content: center;
+    align-items: center;
+    justify-content: end;
     padding: 50px;
+    flex-direction: column;
 }.info-container {
     padding-top: var(--section-padding);
 }
@@ -561,6 +571,40 @@ ul {
 @media only screen and (max-width: 767px) {
     .social-external .inner-container .info h2:after {
         display: none;
+    }
+}.painting h2 {
+    padding-top: 8px;
+}
+
+.painting p {
+    padding-top: 8px;
+}
+
+.painting .main-painting {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.painting .other-paintings {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.painting .other-paintings a {
+    width: 100%;
+    min-width: 200px;
+    max-width: 392px;
+}
+
+.painting .other-paintings img {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .painting .other-paintings a {
+        max-width: none;
     }
 }.social {
     padding-top: var(--section-padding);
