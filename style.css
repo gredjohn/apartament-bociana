@@ -58,21 +58,21 @@ h2 {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--white);
     font-family: "Poppins", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 /* Header */
-.header{
+.header {
     background-color: var(--color-menu);
     box-shadow: 1px 1px 5px 0px var(--grey);
     position: fixed;
@@ -82,7 +82,7 @@ ul{
 }
 
 /* Logo */
-.logo{
+.logo {
     display: inline-block;
     color: var(--white);
     font-size: 0;
@@ -91,7 +91,7 @@ ul{
 }
 
 /* Nav menu */
-.nav{
+.nav {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -218,7 +218,14 @@ ul{
 
 
 /* general */
-.description, .info, .images, .map, .contact-inner, .social, .social-external .social-external-centered {
+.description,
+.info,
+.images,
+.map,
+.contact-inner,
+.social,
+.social-external .social-external-centered,
+.functional-layout {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -273,6 +280,7 @@ ul{
 .info-container .description {
     padding: 16px;
     line-height: 32px;
+    font-family: var(--font-family);
 }
 
 .info-box-container {
@@ -295,6 +303,10 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.info-box-container > div:hover {
+    background: linear-gradient(to left, white, var(--color-menu));
 }
 
 .info-box-container .title,
@@ -475,6 +487,9 @@ ul{
   .modal-content {
     width: 100%;
   }
+}.functional-layout img {
+    width: 100%;
+    max-width: 1200px;
 }.map {
     padding-top: var(--section-padding);
 }
@@ -504,20 +519,6 @@ ul{
 	height: 700px;
 }.virtual-tour {
   padding: 16px 0;
-}.social {
-    padding-top: var(--section-padding);
-}
-
-.social .inner-container {
-	width: 100%;
-	display: inline-flex;
-	flex-wrap: wrap;
-	gap: 16px;
-	justify-content: center;
-}
-
-.social .info {
-	max-width: 400px;
 }.social-external {
     background-color: var(--color-background);
     width: 100%;
@@ -561,6 +562,20 @@ ul{
     .social-external .inner-container .info h2:after {
         display: none;
     }
+}.social {
+    padding-top: var(--section-padding);
+}
+
+.social .inner-container {
+	width: 100%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	justify-content: center;
+}
+
+.social .info {
+	max-width: 400px;
 }.other-apartments {
 	height: 100vh;
 	background-image: url(assets/house.jpg);
