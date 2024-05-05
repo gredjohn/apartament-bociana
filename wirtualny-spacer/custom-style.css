@@ -1,0 +1,37 @@
+/*.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-header {
+	position: relative;
+}
+
+.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-text {
+	position: relative;
+	top: 0;
+}*/
+
+
+.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-header {
+    height: 100px;
+}
+
+.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-text {
+    top: 80px;
+}
+
+.desktop .custom-info-hotspot.visible .info-hotspot-header,
+.desktop.no-touch .custom-info-hotspot.visible .info-hotspot-header:hover {
+	width: 300px;
+	border-top-right-radius: 4px;
+}
+
+.desktop .custom-info-hotspot.info-hotspot.visible .logo {
+	position: absolute;
+	left: 48px;
+	top: 0;
+}
+
+.desktop .custom-info-hotspot.info-hotspot.visible .logo img {
+	width: 150px;
+}
+
+.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-title-wrapper {
+	top: 48px;
+}
