@@ -1,13 +1,3 @@
-/*.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-header {
-	position: relative;
-}
-
-.desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-text {
-	position: relative;
-	top: 0;
-}*/
-
-
 .desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-header {
     height: 100px;
 }
@@ -40,6 +30,12 @@
 
 .desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-title-wrapper {
 	top: 48px;
+	left: 0;
+	width: 100%;
+}
+
+.desktop.no-touch .custom-info-hotspot.info-hotspot .info-hotspot-header:hover .info-hotspot-title-wrapper {
+	width: 100%;
 }
 
 .custom-info-hotspot-modal.info-hotspot-modal .info-hotspot-header .info-hotspot-title-wrapper {
