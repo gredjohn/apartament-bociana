@@ -22,7 +22,13 @@
 	border-top-right-radius: 4px;
 }
 
+.desktop .custom-info-hotspot.info-hotspot .logo,
+.mobile .custom-info-hotspot.info-hotspot .logo {
+	display: none;
+}
+
 .desktop .custom-info-hotspot.info-hotspot.visible .logo {
+	display: block;
 	position: absolute;
 	left: 48px;
 	top: 0;
@@ -34,4 +40,28 @@
 
 .desktop .custom-info-hotspot.info-hotspot.visible .info-hotspot-title-wrapper {
 	top: 48px;
+}
+
+.custom-info-hotspot-modal.info-hotspot-modal .info-hotspot-header .info-hotspot-title-wrapper {
+	top: 190px;
+	left: 0;
+	right: 0;
+	background-color: rgba(103, 115, 131, 0.8);
+}
+
+.custom-info-hotspot-modal.info-hotspot-modal.visible .info-hotspot-text {
+	top: 300px;
+}
+
+.custom-info-hotspot-modal.info-hotspot-modal.visible .info-hotspot-header .logo {
+	width: 100%;
+	height: 140px;
+	padding: 10px;
+	background-color: rgba(103, 115, 131, 0.8);
+}
+
+.custom-info-hotspot-modal.info-hotspot-modal.visible .info-hotspot-header .logo img {
+	width: 100%;
+	max-width: 350px;
+	max-height: 120px;
 }

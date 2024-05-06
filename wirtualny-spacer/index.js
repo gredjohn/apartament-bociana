@@ -347,6 +347,7 @@
     var modal = document.createElement('div');
     modal.innerHTML = wrapper.innerHTML;
     modal.classList.add('info-hotspot-modal');
+    modal.classList.add('custom-info-hotspot-modal');
     document.body.appendChild(modal);
 
     var toggle = function() {
