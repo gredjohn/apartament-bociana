@@ -134,7 +134,7 @@ var APP_DATA = {
           "yaw": -0.4,
           "pitch": 0,
           "title": "Katarzyna Rzepka",
-          "text": "Obraz"
+          "text": "Obraz Meadows, 150*200 cm, 2021 r."
         },
         {
           "yaw": -1,
@@ -210,7 +210,7 @@ var APP_DATA = {
           "yaw": 2,
           "pitch": 0,
           "title": "Katarzyna Rzepka",
-          "text": "Obraz"
+          "text": "Obraz Horizons, 200*150 cm, 2020 r."
         }
       ]
     },
