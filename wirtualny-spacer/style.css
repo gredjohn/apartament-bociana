@@ -660,7 +660,10 @@ body.single-scene #sceneList, body.single-scene #sceneListToggle {
   line-height: 1.2em;
   opacity: 0;
   visibility: hidden;
-
+  -webkit-transition: opacity 0.2s ease-in-out 0.5s,
+                      visibility 0s 0.7s;
+  transition: opacity 0.2s ease-in-out 0.5s,
+              visibility 0s 0.7s;
 }
 
 .info-hotspot-modal.visible {

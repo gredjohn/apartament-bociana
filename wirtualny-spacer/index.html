@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="custom-style.css">
+<link rel="stylesheet" href="contact-styles.css">
+
 </head>
 <body class="multiple-scenes view-control-buttons">
 
@@ -28,8 +30,8 @@
         <li class="text">kuchnia</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="3-sypiania">
-        <li class="text">sypiania</li>
+      <a href="javascript:void(0)" class="scene" data-id="3-sypialnia">
+        <li class="text">sypialnia</li>
       </a>
     
       <a href="javascript:void(0)" class="scene" data-id="4-gabinet">
@@ -85,6 +87,32 @@
   <img class="icon" src="img/minus.png">
 </a>
 
+<div class="intro-contact-container">
+	<div class="intro-contact">
+		<a class="close" onclick="closeIntro()"><img src="./img/close.png" /></a>
+		<div class="info">
+			<div>
+				<img class="contact-logo" src="./veryhome-hygge.svg" />
+			</div>
+			<h3>Biuro sprzedaży</h3>
+			<div>VERYHOME Real Estate</div>
+			<div>Marta Lasak</div>
+			<div>tel.: <a class="link-decoration" href="tel:+48 696 46 46 88">+48 696 46 46 88</a></div>
+			<div>mail: <a class="link-decoration" href="mailto:marta.lasak@veryhome.pl">marta.lasak@veryhome.pl</a></div>
+		</div>
+		<div>
+			<img class="contact" src="./marta-lasak.jpg">
+		</div>	
+	</div>
+</div>
+
+<script>
+	function closeIntro() {
+		document.querySelector(".intro-contact-container").style.display = "none";
+	}
+	
+	setTimeout(closeIntro, 3000);
+</script>
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>
 <script src="vendor/marzipano.js" ></script>
