@@ -24,31 +24,31 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": -2.3718530627607315,
+        "yaw": 0,
         "pitch": 0.08036758513979514,
         "fov": 1.5396019870895838
       },
       "linkHotspots": [
         {
-          "yaw": -0.18193022763527367,
-          "pitch": 0.23528268768966853,
+          "yaw": 2.7,
+          "pitch": 0.1,
           "rotation": 0,
           "target": "5-azienka"
         },
         {
-          "yaw": 0.4262010893234187,
-          "pitch": 0.2884010308795375,
+          "yaw": 3,
+          "pitch": 0.1,
           "rotation": 0,
-          "target": "3-sypiania"
+          "target": "3-sypialnia"
         },
         {
-          "yaw": 2.380073076436899,
-          "pitch": 0.3044605463982837,
+          "yaw": 4.9,
+          "pitch": 0.2,
           "rotation": 0,
           "target": "4-gabinet"
         },
         {
-          "yaw": -3.0305928988464768,
+          "yaw": 6,
           "pitch": 0.23173940919339486,
           "rotation": 0,
           "target": "1-salon"
@@ -56,18 +56,24 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -2.307932350630722,
-          "pitch": -0.05313980532449669,
+          "yaw": 1,
+          "pitch": 0,
           "title": "Zapraszamy do kontaktu",
-          "text": "Mieszkanie już prawie gotowe. Zapraszamy do oglądania."
+          "text": "Z przyjemnością przedstawiam Państwu mieszkanie \"perełkę\"! Zapraszamy do oglądania."
         },
         {
-          "yaw": -0.9985609046465402,
-          "pitch": -0.15555727447740253,
+          "yaw": 2.2,
+          "pitch": 0,
           "title": "Duża zabudowana szafa",
           "text": "W środku miejsce na pralkę i wieszaki na ubrania"
+        },
+        {
+          "yaw": 3.5,
+          "pitch": 0,
+          "title": "Loftowe lustro",
+          "text": "Idealnie podkreśla charakter korytarza"
         }
-      ]
+     ]
     },
     {
       "id": "1-salon",
@@ -122,14 +128,27 @@ var APP_DATA = {
           "yaw": -3.5,
           "pitch": 0.11895362642477281,
           "title": "Wyjątkowe połączenie lameli i lustra",
-          "text": "Wysokie lustro nadające charakteru"
+          "text": "Lustro wykonane na wymiar oraz lamele doskonale łączą kuchnię z salonem"
         },
 		{
           "yaw": -0.4,
           "pitch": 0,
           "title": "Katarzyna Rzepka",
           "text": "Obraz"
+        },
+        {
+          "yaw": -1,
+          "pitch": 0.7813097667474143,
+          "title": "Stylowe stoliki",
+          "text": "Stoliki kawowe wyonane na zamówienie z drewna jesionowego. Są niepowtarzalne i znakomicie wpasowują się w przestrzeń salonu."
+        },
+        {
+          "yaw": -1,
+          "pitch": 0.14757338228224626,
+          "title": "Wygodna kanapa",
+          "text": "Bardzo wygodna kanapa zaprojektowana oraz wykonana do tego mieszkania"
         }
+
       ]
     },
     {
@@ -179,7 +198,13 @@ var APP_DATA = {
           "yaw": -0.7,
           "pitch": 0,
           "title": "Przestronna kuchnia",
-          "text": "Ze zmywarką, piekarnikiem, lodówką, płytą indukcyją i nowoczesnym okapem."
+          "text": "Miejsce na kuchnię zostało wykorzystane do maksimum. W kuchni znajduję się lodówka, zmywarka, piekarnik, zlew i płyta oraz bardzo dużo szafek do przechowywania"
+        },
+        {
+          "yaw": -0.5,
+          "pitch": -0.3,
+          "title": "Duży okap",
+          "text": "Nadaje charakteru kuchni"
         },
         {
           "yaw": 2,
@@ -190,8 +215,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "3-sypiania",
-      "name": "sypiania",
+      "id": "3-sypialnia",
+      "name": "sypialnia",
       "levels": [
         {
           "tileSize": 256,
@@ -229,8 +254,8 @@ var APP_DATA = {
         {
           "yaw": 2,
           "pitch": -0.1,
-          "title": "Miejsce na szafę",
-          "text": "W sypialni jest dużo miejsca na aranżację szafy"
+          "title": "Możliwość zabudowy",
+          "text": "W sypialni nadal pozostaje miejsce na wykonanie dużej szafy"
         },
         {
           "yaw": -2.08323130930444123,
@@ -288,7 +313,14 @@ var APP_DATA = {
           "pitch": 0.1477536801243069,
           "title": "Katarzyna Rzepka",
           "text": "Obraz"
+        },
+		{
+          "yaw": -1,
+          "pitch": 0.5,
+          "title": "Wygodny fotel",
+          "text": "Model fotelu jest spójny z kanapą w salonie i może być wykorzystany jako komplet"
         }
+
       ]
     },
     {
@@ -315,24 +347,36 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": 2.785193343167169,
+        "yaw": 2,
         "pitch": -0.07897474584543751,
         "fov": 1.5396019870895838
       },
       "linkHotspots": [
         {
-          "yaw": -2.773304459696421,
-          "pitch": 0.3770338722691342,
+          "yaw": -4.5,
+          "pitch": 0.2,
           "rotation": 0,
           "target": "0-korytarz"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.2174337745366088,
-          "pitch": -0.15385580086493533,
+          "yaw": 0,
+          "pitch": 0,
           "title": "Duże lustro",
-          "text": "Duże podświetlane lustro"
+          "text": "Duże lustro z podświetleniem LED"
+        },
+        {
+          "yaw": -1.2702256837617885,
+          "pitch": -0.11710063500358636,
+          "title": "Wanna z prysznicem",
+          "text": "Na stosunkowo niewielkiej przestrzeni łazienki udało się znaleźć kompromis pomiędzy wanną i prysznicem"
+        },
+        {
+          "yaw": -2.579302666286331,
+          "pitch": -0.32225408736066363,
+          "title": "Szafka nad toaletą",
+          "text": "Podświetlana szafka LED z dużą powierzchnią do przechowywania"
         }
       ]
     },
