@@ -99,30 +99,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.726864534825431,
-          "pitch": 0.3556172463433498,
+          "yaw": 2.2,
+          "pitch": 0.2,
           "rotation": 0,
           "target": "0-korytarz"
         },
         {
-          "yaw": -2.082530435277988,
-          "pitch": 0.4255051165091057,
+          "yaw": -2.62,
+          "pitch": 0.2,
           "rotation": 0,
           "target": "2-kuchnia"
         },
         {
-          "yaw": -1.8435730622617932,
-          "pitch": 0.07123897634281562,
+          "yaw": -2.45,
+          "pitch": 0,
           "rotation": 0,
           "target": "6-balkon"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -3.0118468299664016,
+          "yaw": -3.5,
           "pitch": 0.11895362642477281,
           "title": "Wyjątkowe połączenie lameli i lustra",
-          "text": "Text"
+          "text": "Wysokie lustro nadające charakteru"
+        },
+		{
+          "yaw": -0.4,
+          "pitch": 0,
+          "title": "Katarzyna Rzepka",
+          "text": "Obraz"
         }
       ]
     },
@@ -156,24 +162,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 3.0639913611806415,
-          "pitch": 0.2802942994765125,
+          "yaw": 3.8,
+          "pitch": 0,
           "rotation": 0,
           "target": "1-salon"
         },
         {
-          "yaw": 0.702758770532645,
-          "pitch": 0.1886905911157033,
+          "yaw": 0.9,
+          "pitch": 0,
           "rotation": 0,
           "target": "6-balkon"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -1.9315624055723752,
-          "pitch": 0.15318433288060618,
+          "yaw": -0.7,
+          "pitch": 0,
           "title": "Przestronna kuchnia",
           "text": "Ze zmywarką, piekarnikiem, lodówką, płytą indukcyją i nowoczesnym okapem."
+        },
+        {
+          "yaw": 2,
+          "pitch": 0,
+          "title": "Katarzyna Rzepka",
+          "text": "Obraz"
         }
       ]
     },
@@ -207,18 +219,30 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.239515576063411,
-          "pitch": 0.13657663337443005,
+          "yaw": -3,
+          "pitch": 0,
           "rotation": 0,
           "target": "0-korytarz"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.08323130930444123,
-          "pitch": 0.22388865745532804,
+          "yaw": 2,
+          "pitch": -0.1,
+          "title": "Miejsce na szafę",
+          "text": "W sypialni jest dużo miejsca na aranżację szafy"
+        },
+        {
+          "yaw": -2.08323130930444123,
+          "pitch": -0.2,
+          "title": "Katarzyna rzepka",
+          "text": "Oraz"
+        },
+		{
+          "yaw": -1.4,
+          "pitch": -0.1,
           "title": "Cicha sypialnia",
-          "text": "Z miejscem na łóżko 140cm oraz dwie szafi nocne"
+          "text": "Z łóżkiem szerokości 140cm oraz miejscem na szafki nocne"
         }
       ]
     },
@@ -252,18 +276,18 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.5504413973189077,
-          "pitch": 0.2192030308624524,
+          "yaw": 3.9,
+          "pitch": 0.1192030308624524,
           "rotation": 0,
           "target": "0-korytarz"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.6673220575819165,
+          "yaw": 2,
           "pitch": 0.1477536801243069,
-          "title": "Gabinet? A może pokój dla dziecka?",
-          "text": "Obie aranżacje są jak najbardziej możliwe do zrealizowania."
+          "title": "Katarzyna Rzepka",
+          "text": "Obraz"
         }
       ]
     },
@@ -358,7 +382,7 @@ var APP_DATA = {
       ]
     }
   ],
-  "name": "Project Title",
+  "name": "Apartament Bociana",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
